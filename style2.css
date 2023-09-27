@@ -1,0 +1,318 @@
+/* Set body margin and padding to 0 */
+/*body {
+  margin: 0;
+  padding: 0;
+}
+*/
+/* Set header height and background color/image */
+body {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/lato/v23/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  font-family: 'Lusitana';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/lusitana/v13/CSR84z9ShvucWzsMKyhdTOI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  /*background-image: url(https://s3-service-broker-live-19ea8b98-4d41-4cb4-be4c-d68f4963b7dd.s3.amazonaws.com/uploads/collections/natastron-agn-hero-3cb716d73d8be023bb03a925dba33645_new-d6af24214153b113d7d56a9133a73083.jpg);*/
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  /*padding: 50px 0;*/
+  text-align: center;
+  background-color: white;
+  height: 100%;
+
+
+}
+
+header h1 {
+  margin-bottom: 50px;
+}
+
+
+h1 {
+
+  font-family: 'Lusitana';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/lato/v23/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-size: 40px;
+  color: black;
+  /*margin: 0;*/
+  margin-bottom: 180px;
+  margin-left: 450px; /* Add left margin to create space for the image */
+  margin-right: 450px; /* Add right margin to center the header */
+  margin-top: 30px;
+  /*margin-bottom: 50px;*/
+
+}
+header h1 {
+  margin-bottom: 50px;
+}
+
+nav {
+  margin-left: auto;
+  /*float: right;*/
+    /*position: absolute;*/
+  bottom: 0;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  /*text-align: center;*/
+}
+
+nav ul {
+  /*text-align: right;*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Set main content width and margin */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style the researchs list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+/* Set footer height and background color */
+footer {
+  height: 100px;
+  background-color: #ccc;
+}
+
+/* Set font family for the entire page */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+/* Reset default margins and paddings */
+/** {
+  margin: 0;
+  padding: 0;
+}*/
+
+/* Set the font family and size */
+body {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/lato/v23/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the max width and center the page */
+.page-wrapper {
+  /*max-width: 1000px;*/
+  /*margin: 0 auto;*/
+}
+
+/* Style the header */
+.header {
+  font-family: 'Lusitana';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/lusitana/v13/CSR84z9ShvucWzsMKyhdTOI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  background-image: url(https://img.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_1017-25101.jpg?w=2000);
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  /*padding: 5px 0;*/
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: lightskyblue;
+  height: 100%;
+  border-top-width: -1px;
+  border-top-style: solid;
+}
+
+/* Style the research title */
+.research-title {
+  font-family: 'Lusitana';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/lusitana/v13/CSR84z9ShvucWzsMKyhdTOI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-size: 40px;
+  color: black;
+  /*margin: 0;*/
+  margin-bottom: 20px;
+  margin-left: 450px; /* Add left margin to create space for the image */
+  margin-right: 450px; /* Add right margin to center the header */
+  margin-top: 30px;
+}
+
+/* Style the research metadata */
+.research-meta {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* Style the research abstract */
+.research-abstract {
+  margin-bottom: 40px;
+}
+
+/* Style the research body text */
+.research-text {
+  margin-bottom: 40px;
+}
+
+/* Style the research figure caption */
+.research-figure-caption {
+  font-style: italic;
+  color: #888;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Style the research references */
+.research-references {
+  margin-top: 40px;
+}
+
+/* Style the research footer */
+.research-footer {
+  font-style: italic;
+  color: #888;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 600px) {
+  .page-wrapper {
+    padding: 20px;
+  }
+
+  .research-title {
+    font-size: 24px;
+  }
+
+  .header {
+    flex-direction: column;
+    text-align: justify;
+  }
+
+ /* .header-text {
+    margin-top: 10px;
+  }*/
+
+  .research-figure {
+    width: 100%;
+  }
+
+  .research-figure-caption {
+    font-size: 12px;
+  }
+}
+
+
+.my-button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.my-button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: burlywood;
+}
+
+li {
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  color: maroon;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  font-style: italic;
+  color: #666;
+}
+
+
+.listt {
+  padding: 10px;
+  margin-bottom: 5px;
+  /*border-radius: 5px;*/
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}

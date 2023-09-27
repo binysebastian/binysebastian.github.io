@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/lato/v23/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Lusitana';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/lusitana/v13/CSR84z9ShvucWzsMKyhdTOI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://img1.wsimg.com/gfonts/s/lato/v23/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	margin: 0;
+	padding: 0;
+}
+/*body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, nav, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+*/
+
+
+header {
+	font-family: 'Lusitana';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://img1.wsimg.com/gfonts/s/lusitana/v13/CSR84z9ShvucWzsMKyhdTOI.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	/*background-image: url(https://s3-service-broker-live-19ea8b98-4d41-4cb4-be4c-d68f4963b7dd.s3.amazonaws.com/uploads/collections/natastron-agn-hero-3cb716d73d8be023bb03a925dba33645_new-d6af24214153b113d7d56a9133a73083.jpg);*/
+	background-image: url(https://img.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_1017-25101.jpg?w=2000);
+	/*background-size: cover;*/
+	/*background-position: center;*/
+	/*padding: 5px 0;*/
+	text-align: center;
+	background-color: white;
+	height: 100%;
+
+}
+
+.portfolio-photo {
+  display: inline-block;	
+  float: left; /* Float the image to the left */
+  margin-right: 20px; /* Add right margin to separate the image from the title */
+  margin-top: -25px; /* Add top margin to move the image down */
+  margin-left: 100px; /* Add negative left margin to move the image to the center */
+  width: 400px; /* Set the width of the image */
+  height: 400px; /* Set the height of the image */
+  border-radius: 50%; /* Make the image round */
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+/*.portfolio-photo {
+	display: inline-block;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	object-position: right;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+*/
+
+h1 {
+	font-family: 'Lusitana';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://img1.wsimg.com/gfonts/s/lusitana/v13/CSR84z9ShvucWzsMKyhdTOI.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	font-size: 40px;
+	color: black;
+	/*margin: 0;*/
+	margin-bottom: 20px;
+	margin-left: 450px; /* Add left margin to create space for the image */
+	margin-right: 450px; /* Add right margin to center the header */
+	margin-top: 30px;
+}
+
+nav {
+	margin-left: auto;
+	/*float: right;*/
+    /*position: absolute;*/
+    bottom: 0;
+    color: black;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 150px;
+	font-size: 30px;
+	/*display: flex;*/
+	/*justify-content: flex-end;*/
+	/*text-align: center;*/
+}
+
+nav ul {
+	/*text-align: right;*/
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin: 0 20px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+section {
+	padding: 50px 0;
+	text-align: center;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+footer {
+	background-color: #2d2d2d;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.contact-photo {
+	display: block;
+	margin: 0 auto 20px;
+	border-radius: 80%;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	object-position: center;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
