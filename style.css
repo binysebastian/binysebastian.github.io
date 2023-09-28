@@ -326,45 +326,61 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 768px) {
   body {
     background-attachment: scroll;
+/*     background-image: url('back-mob.jpg'); */
   }
 
-  .portfolio-photo {
-    margin: 0 auto;
-    display: block;
-    border-radius: 80%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    object-position: center;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  .portfolio-photo, h1, nav {
+    margin: 0;
+    float: none;
+    text-align: center;
+    /*width: 100%;*/
+    margin-left: 0;
+    margin-right: 0;
   }
-
   h1 {
-    font-size: 30px; /* Increase the font size for mobile */
-    margin-top: 20px;
+    font-size: 40px !important; /* Increase the font size for mobile */
+    text-align: center !important; /* Center the text horizontally */
+    margin-top: -100px 0 !important; /* Add margin at the top and bottom */
   }
 
   nav {
-    text-align: center;
+    text-align: center !important;
   }
 
   nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   nav li {
-    margin: 0;
+    margin: 0 !important;
   }
 
   /* Make the navigation menu vertical */
   nav li {
-    display: block;
-    margin-bottom: 10px; /* Adjust the margin for spacing between items */
+    display: block !important;
+    margin-bottom: 10px !important; /* Adjust the margin for spacing between items */
   }
 
   /* Add more specific adjustments as needed for mobile */
+  
+  /* Add this to make the navigation list vertical */
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav li {
+    text-align: center;
+  }
+  
+  /* Add more specific adjustments as needed for vertical navigation */
+  
+  /* Center the portfolio photo */
+  .portfolio-photo {
+    margin-top: 20px;
+  }
 }
 
 
