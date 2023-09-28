@@ -323,4 +323,41 @@ img {vertical-align: middle;}
 
 
 
+/* Add this media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+
+  .portfolio-photo, h1, nav {
+    margin: 0;
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  nav {
+    margin-top: 20px;
+  }
+
+  .slideshow-container {
+    max-width: 100%;
+  }
+
+  .contact-photo {
+    margin-bottom: 10px;
+  }
+
+  /* Add more specific adjustments as needed for mobile */
+  h1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+}
+
+
+
+
 
