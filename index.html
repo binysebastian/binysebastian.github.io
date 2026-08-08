@@ -1,152 +1,33 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<title>Website of Dr. Biny Sebastian</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
-  <script>
-  function openInNewTab(url) {
-    window.open(url, '_blank');
-  }
-
-  let slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  
-  function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-  }
-  
-  </script>
-  <!-- <script src="sliding.js"></script> -->
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dr. Biny Sebastian | Astrophysicist · AGN Jets · JWST &amp; Radio Astronomy</title>
+  <meta name="description" content="Dr. Biny Sebastian is an observational astrophysicist at the Space Telescope Science Institute studying AGN jets, black holes, galaxy evolution, and jet-driven feedback with JWST, VLA, VLBA, GMRT, ALMA, HST, VLT, and Chandra.">
+  <meta name="keywords" content="Biny Sebastian, astrophysicist, observational astronomer, radio astronomy, AGN jets, active galactic nuclei, jet feedback, galaxy evolution, JWST, STScI, black holes, radio galaxies, VLA, VLBA, GMRT">
+  <meta name="author" content="Biny Sebastian">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://binysebastian.github.io/">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="profile"><meta property="og:title" content="Dr. Biny Sebastian | Astrophysicist"><meta property="og:description" content="Observational astrophysicist exploring how black-hole jets shape galaxies."><meta property="og:url" content="https://binysebastian.github.io/"><meta property="og:image" content="https://binysebastian.github.io/assets/images/biny-sebastian.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Biny Sebastian","honorificPrefix":"Dr.","url":"https://binysebastian.github.io/","image":"https://binysebastian.github.io/assets/images/biny-sebastian.jpg","jobTitle":"Postdoctoral Fellow in Astrophysics","worksFor":{"@type":"Organization","name":"Space Telescope Science Institute","url":"https://www.stsci.edu/"},"alumniOf":[{"@type":"Organization","name":"National Centre for Radio Astrophysics, Tata Institute of Fundamental Research"},{"@type":"CollegeOrUniversity","name":"National Institute of Technology Calicut"}],"sameAs":["https://scholar.google.com/citations?user=DtOnUo4AAAAJ","https://orcid.org/0000-0001-8428-6525","https://github.com/binysebastian","https://www.researchgate.net/profile/Biny-Sebastian","https://www.linkedin.com/in/biny-sebastian"],"knowsAbout":["Astrophysics","Radio astronomy","Active galactic nuclei","AGN jets","Galaxy evolution","Black holes","JWST spectroscopy","Radio interferometry"]}</script>
 </head>
 <body>
-	<header>
-		<!-- <div class="portfolio-container"> -->
-		<h1>Biny Sebastian</h1>	<br>
-		<img src="https://lh3.googleusercontent.com/I1uaIfajeK5jcXTgccVkkRYOvfgDvo7o3vIYj1Vc6LUHyu2rR0IxcBb7Tv9w_61x5bYyIOHlUNZGyo4tzDSbd3CGvHztbGDNYL88by5Mi6rTCqUkMUFO73mhwhJpN0Y4DyHAq_PLYOc=w2400" alt="Your Photo" class="portfolio-photo"><br>
-			<!-- <h1>My Portfolio</h1> -->
-		<!-- </div> -->
-		<nav>
-			<ul>
-				<li><a href="#about">About me</a></li>
-				<li><a href="research.html">Research</a></li>
-				<li><a href="cv.html">Curriculum Vitae</a></li>
-				<li><a href="publications.html">Publications</a></li>
-				<li><a href="codes.html">Codes</a></li>
-				<li><a href="#contact">Contact me</a></li>
-			</ul>
-		</nav>
-	</header>
-	
-<section id="about">
-  <h2>About Me</h2>
-
-  <p>
-    Welcome to my homepage! I am an astrophysicist studying radio jets in active
-    galactic nuclei (AGN) and their impact on galaxy evolution. My work focuses
-    on understanding how jet-driven feedback influences multi-phase gas in
-    galaxies across cosmic time.
-  </p>
-
-  <p>
-    I am currently a postdoctoral fellow at the
-    <strong>Space Telescope Science Institute (STScI)</strong>, where I work with
-    Dr. Patrick Ogle to investigate jet feedback using <strong>JWST IFU
-    spectroscopy</strong> of radio galaxies. My research uses spatially
-    resolved diagnostics to study shocked molecular and ionized gas, outflows,
-    and the energetics of jet–interstellar medium interaction.
-  </p>
-
-  <p>
-    Prior to STScI, I worked with Profs. Christopher P. O’Dea and Stefi Baum at the
-    University of Manitoba, as part of the <strong>Canadian Initiative for Radio
-    Astronomy Data Analysis (CIRADA)</strong> collaboration, contributing to
-    radio continuum processing pipelines and science-ready data products such as
-    VLASS value-added catalogs. I earned my Ph.D. from the
-    <strong>National Centre for Radio Astrophysics (NCRA-TIFR), India</strong>
-    under the supervision of Prof. Preeti Kharb, where I studied jet-driven
-    outflows, X-shaped radio galaxies, and the relationship between star
-    formation and AGN activity.
-  </p>
-
-  <p>
-    I have extensive experience working with radio interferometric data from
-    VLA, VLBA, and GMRT, and with multi-wavelength facilities including JWST,
-    HST, ALMA, VLT, and Chandra to investigate how AGN influence their host
-    galaxies.
-  </p>
-
-  <p>
-    For more on my current projects, please visit my
-    <a href="research.html" target="_blank">research page</a>.
-    
-  </p>
-</section>
-
-	
-	<section id="CIRADA">
-		<h2>CIRADA collaboration</h2>
-		<p>			The Canadian initiative for radio astronomy data analysis <a href="https://cirada.ca/" target="_blank">(CIRADA) </a>  is an initiative by researchers from various institutes across Canada aimed at making science-ready data products from radio astronomy surveys across the world. To find out the latest about VLASS continuum catalogs, <a href="https://cirada.ca/vlasscatalogueql0" target="_blank">click here </a>. </p>
-</p>
-	</section>
-	
-
-<!-- 	<section id="publications">
-		<h2>Publications</h2>
-		<p>List some of your notable publications and provide links to access them.</p>
-	</section> -->
-	
-	<section class="emailid" id="contact">
-		<!-- <h2>Contact Me</h2> -->
-		<img src="https://thumbs.dreamstime.com/b/contact-me-word-wooden-cubes-written-188527637.jpg" alt="Your Photo" class="contact-photo">
-		<p>Email Id: bsebastian@stsci.edu</p>
-		<p>Space Telescope Science Institute,</p>
-		<p>3700 San Martin Dr,</p>
-		<p>Baltimore, MD 21218</p>
-<!-- 
-		<form action="process-form.php" method="post">
-
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name" required>
-			
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email" required>
-			
-			<label for="subject">Subject:</label>
-			<input type="text" id="subject" name="subject" required>
-			
-			<label for="message">Message:</label>
-			<textarea id="message" name="message" required></textarea>
-			
-			<input type="submit" value="Send">
-		</form>
- -->
-	</section>
-	
-	<footer>
-		<p>Copyright © 2025 Biny Sebastian</p>
-	</footer>
-</body>
-</html>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="index.html" aria-label="Biny Sebastian home"><span class="brand-mark">BS</span><span>Biny Sebastian</span></a><button class="menu-button" aria-expanded="false" aria-label="Open menu">Menu</button><nav class="nav" aria-label="Main navigation"><a class="active" href="index.html">About</a><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="codes.html">Software</a><a href="cv.html">CV</a><a class="nav-cta" href="mailto:bsebastian@stsci.edu">Contact</a></nav></header>
+  <main id="main">
+    <section class="hero wrap">
+      <div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> Postdoctoral Fellow · STScI</p><h1>Tracing how <em>black-hole jets</em> shape galaxies.</h1><p class="lede">I’m Dr. Biny Sebastian, an observational astrophysicist studying active galactic nuclei, jet–interstellar medium interactions, and galaxy evolution through radio interferometry and spatially resolved spectroscopy.</p><div class="button-row"><a class="button primary" href="research.html">Explore my research <span>→</span></a><a class="button secondary" href="assets/Biny-Sebastian-CV.pdf" download>Download CV <span>↓</span></a></div><div class="profile-links"><a href="https://scholar.google.com/citations?user=DtOnUo4AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a><a href="https://orcid.org/0000-0001-8428-6525" target="_blank" rel="noopener">ORCID ↗</a><a href="https://github.com/binysebastian" target="_blank" rel="noopener">GitHub ↗</a><a href="https://ui.adsabs.harvard.edu/public-libraries/AoeFTUf5SYWhHjLTaPBrrQ" target="_blank" rel="noopener">NASA ADS ↗</a></div></div>
+      <div class="portrait-wrap"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><img src="assets/images/biny-sebastian.jpg" alt="Dr. Biny Sebastian, observational astrophysicist" width="600" height="800"><div class="portrait-note"><strong>Across the spectrum</strong><span>JWST · VLA · VLBA · uGMRT</span></div></div>
+    </section>
+    <section class="signal-strip"><div class="wrap signal-grid"><div><span>01</span><strong>AGN feedback</strong><small>Jets, winds &amp; multiphase gas</small></div><div><span>02</span><strong>Radio astronomy</strong><small>Parsec to galaxy scales</small></div><div><span>03</span><strong>Black holes</strong><small>Binary candidates &amp; activity cycles</small></div><div><span>04</span><strong>Galaxy evolution</strong><small>Feedback across cosmic time</small></div></div></section>
+    <section class="section wrap two-col"><div><p class="eyebrow">Current focus</p><h2>Connecting energetic engines to their galactic environments</h2></div><div class="prose"><p>At the <strong>Space Telescope Science Institute</strong>, I work with Dr. Patrick Ogle on JWST integral-field spectroscopy of radio galaxies. We map shocked molecular and ionized gas, outflows, and the energetics of jet–ISM interaction.</p><p>Previously, I contributed to the <strong>CIRADA</strong> collaboration at the University of Manitoba, developing radio-continuum processing pipelines and science-ready products for surveys including VLASS. I earned my PhD at <strong>NCRA–TIFR</strong> with Prof. Preeti Kharb.</p></div></section>
+    <section class="section wrap"><div class="section-head"><div><p class="eyebrow">Selected work</p><h2>Research highlights</h2></div><a class="text-link" href="publications.html">All publications →</a></div><div class="feature-grid"><article class="feature-card featured"><div><span class="tag">First author · JWST · 2026</span><h3>Jet-driven H₂ and ionized outflows in 3C 305</h3><p>JWST resolves shocks, warm molecular outflows, and faster ionized outflows where the compact radio jet terminates inside the galaxy.</p><a href="https://arxiv.org/abs/2606.25856" target="_blank" rel="noopener">Read the paper ↗</a></div></article><article class="feature-card"><span class="tag">Second author · JWST · 2025</span><h3>The JWST view of Cygnus A</h3><p>Resolving a jet-driven coronal outflow and the complex coupling between an iconic radio source and its host galaxy.</p><a href="https://doi.org/10.3847/1538-4357/adb71a" target="_blank" rel="noopener">Read the paper ↗</a></article><article class="feature-card"><span class="tag">Third author · Polarimetry · 2025</span><h3>Magnetic fields around Seyfert outflows</h3><p>Radio polarization maps uncover ordered magnetic-field structures in and around outflows from radio-quiet active galaxies.</p><a href="https://doi.org/10.3847/1538-4357/ad7d7b" target="_blank" rel="noopener">Read the paper ↗</a></article></div></section>
+    <section class="cta-section"><div class="wrap cta"><div><p class="eyebrow">Collaborate</p><h2>Interested in jets, feedback, or multi-wavelength galaxies?</h2></div><a class="button light" href="mailto:bsebastian@stsci.edu">Start a conversation <span>↗</span></a></div></section>
+  </main>
+  <footer class="footer wrap"><div><strong>Dr. Biny Sebastian</strong><p>Observational astrophysicist · Baltimore, Maryland</p></div><div><a href="mailto:bsebastian@stsci.edu">bsebastian@stsci.edu</a><p>© <span data-year></span> Biny Sebastian</p></div></footer>
+  <script src="assets/js/main.js" defer></script>
+</body></html>
